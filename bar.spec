@@ -1,5 +1,5 @@
 Summary:	Command Line Progress Bar
-Summary(pl):	Pasek postêpu w linii komend
+Summary(pl.UTF-8):   Pasek postÄ™pu w linii komend
 Name:		bar
 Version:	1.10.7
 Release:	1
@@ -21,16 +21,16 @@ Bar was originally written for the purpose of estimating the amount of
 time needed to transfer large amounts (many, many gigabytes) of data
 across a network. (Usually in an SSH/tar pipe.)
 
-%description -l pl
-Bar jest prostym narzêdziem kopiuj±cym strumienie danych
-i wy¶wietlaj±cym u¿ytkownikowi (a) ile danych zosta³o przes³anych,
-(b) przepustowo¶æ przesy³u danych, (c) czas przesy³u lub, gdy znany
-jest rozmiar strumienia danych, oszacowany pozosta³y czas, procent
-ukoñczenia i pasek postêpu.
+%description -l pl.UTF-8
+Bar jest prostym narzÄ™dziem kopiujÄ…cym strumienie danych
+i wyÅ›wietlajÄ…cym uÅ¼ytkownikowi (a) ile danych zostaÅ‚o przesÅ‚anych,
+(b) przepustowoÅ›Ä‡ przesyÅ‚u danych, (c) czas przesyÅ‚u lub, gdy znany
+jest rozmiar strumienia danych, oszacowany pozostaÅ‚y czas, procent
+ukoÅ„czenia i pasek postÄ™pu.
 
-Bar pocz±tkowo zosta³ napisany w celu oszacowania czasu potrzebnego
-na przesy³ du¿ej ilo¶ci danych (wiele, wiele gigabajtów) przez sieæ.
-(Na przyk³ad przez rurkê SSH/tar).
+Bar poczÄ…tkowo zostaÅ‚ napisany w celu oszacowania czasu potrzebnego
+na przesyÅ‚ duÅ¼ej iloÅ›ci danych (wiele, wiele gigabajtÃ³w) przez sieÄ‡.
+(Na przykÅ‚ad przez rurkÄ™ SSH/tar).
 
 %prep
 %setup -q
