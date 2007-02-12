@@ -1,5 +1,5 @@
 Summary:	Command Line Progress Bar
-Summary(pl.UTF-8):   Pasek postępu w linii komend
+Summary(pl.UTF-8):	Pasek postępu w linii komend
 Name:		bar
 Version:	1.10.7
 Release:	1
