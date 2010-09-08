@@ -1,12 +1,12 @@
 Summary:	Command Line Progress Bar
 Summary(pl.UTF-8):	Pasek postępu w linii komend
 Name:		bar
-Version:	1.10.9
+Version:	1.11.0
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/clpbar/%{name}_%{version}.tar.gz
-# Source0-md5:	d824415b391a3f826b410c86223e54a5
+# Source0-md5:	601a6451e531c3833416b984c08802af
 URL:		http://clpbar.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog TODO TROUBLESHOOTING
+%doc AUTHORS debian/changelog TODO TROUBLESHOOTING
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/bar.1*
