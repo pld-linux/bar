@@ -1,12 +1,12 @@
 Summary:	Command Line Progress Bar
 Summary(pl.UTF-8):	Pasek postępu w linii komend
 Name:		bar
-Version:	1.11.0
+Version:	1.11.1
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/clpbar/%{name}_%{version}.tar.gz
-# Source0-md5:	601a6451e531c3833416b984c08802af
+# Source0-md5:	4836a9767cbfb9c0b16020d23b4b5e91
 URL:		http://clpbar.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
